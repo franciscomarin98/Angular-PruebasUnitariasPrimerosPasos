@@ -1,0 +1,5 @@
+
+
+const usuarioAutenticado = () => {
+  return true;
+}
