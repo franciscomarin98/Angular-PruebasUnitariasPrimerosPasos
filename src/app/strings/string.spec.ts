@@ -1,5 +1,5 @@
 import { mensaje } from './string';
-describe('String File', () => {
+describe('Pruebas de Strings', () => {
 
   it('La funcion "mensaje" debe retornar un string', () => {
     const result = mensaje('ESTO ES UN TEST');
