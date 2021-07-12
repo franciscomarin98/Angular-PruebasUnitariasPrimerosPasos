@@ -1,5 +1,5 @@
 
 
-const usuarioAutenticado = () => {
+export const usuarioAutenticado = () => {
   return true;
 }
