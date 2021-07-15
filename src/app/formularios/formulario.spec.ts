@@ -19,4 +19,17 @@ describe('Pruebas de forms', () => {
 
   });
 
+  it('El email debe ser obligatorio', () => {
+    const control = component.form.get('email');
+    control.setValue('');
+    expect(control.valid).toBeFalsy();
+  });
+
+  it('El email ingresado deber ser válido', () => {
+    const control = component.form.get('email');
+    control.setValue('test@test.com');
+    console.log(control.valid);
+    expect(control.valid).toBeTruthy();
+  });
+
 });
